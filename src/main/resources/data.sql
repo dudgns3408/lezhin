@@ -1,0 +1,26 @@
+INSERT INTO USERS(name)
+VALUES ('user1');
+
+INSERT INTO USERS(name)
+VALUES ('user2');
+
+INSERT INTO USERS(name)
+VALUES ('user3');
+
+INSERT INTO USERS(name)
+VALUES ('user4');
+
+INSERT INTO USERS(name)
+VALUES ('user5');
+
+INSERT INTO USERS(name)
+VALUES ('user6');
+
+INSERT INTO USERS(name)
+VALUES ('user7');
+
+INSERT INTO USERS(name)
+VALUES ('user8');
+
+INSERT INTO USERS(name)
+VALUES ('user9');

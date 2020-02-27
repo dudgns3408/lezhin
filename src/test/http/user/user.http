@@ -1,0 +1,129 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET http://127.0.0.1:8080/api/user/1/followers
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8080/api/user/1/following
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8080/api/user/1/posts
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8080/api/user/1/following/posts
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8080/api/post
+Content-Type: application/json
+
+{
+  "title": "title1",
+  "content": "content1",
+  "userId": 2
+}
+
+###
+
+POST http://127.0.0.1:8080/api/post
+Content-Type: application/json
+
+{
+  "title": "title2",
+  "content": "content2",
+  "userId": 2
+}
+
+###
+
+POST http://127.0.0.1:8080/api/post
+Content-Type: application/json
+
+{
+  "title": "title3",
+  "content": "content3",
+  "userId": 2
+}
+
+###
+
+GET http://127.0.0.1:8080/api/post/1
+Accept: application/json
+
+###
+
+PUT http://127.0.0.1:8080/api/post
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "title11",
+  "content": "content11"
+}
+
+###
+
+GET http://127.0.0.1:8080/api/post/1
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8080/api/user/1/follow/2
+Content-Type: application/json
+
+###
+
+GET http://127.0.0.1:8080/api/user/1/following
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8080/api/user/2/followers
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8080/api/user/1/unfollow/2
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:8080/api/user/1/follow/3
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:8080/api/post
+Content-Type: application/json
+
+{
+  "title": "title4",
+  "content": "content4",
+  "userId": 3
+}
+
+###
+
+POST http://127.0.0.1:8080/api/post
+Content-Type: application/json
+
+{
+  "title": "title5",
+  "content": "content5",
+  "userId": 3
+}
+
+###
+
